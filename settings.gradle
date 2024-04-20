@@ -1,0 +1,26 @@
+
+pluginManagement {
+    repositories {
+        jcenter()
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        jcenter()
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+rootProject.name = "BaseProject"
+include ':app'
+include ':on_demond_zoom:mobilertc'
+include ':on_demond_zoom'
+include ':instant_feature'

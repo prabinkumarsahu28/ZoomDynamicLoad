@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.BaseProject" parent="Theme.MaterialComponents.Light" />
+
+    <!-- Define the WhiteBackgroundTheme style -->
+    <style name="WhiteBackgroundTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Define the WhiteBackgroundDialogTheme style -->
+    <style name="WhiteBackgroundDialogTheme" parent="Theme.MaterialComponents.Light.Dialog">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ZMTheme"></style>
+    <style name="ZMTheme.Transparent"></style>
+    <style name="ZMTheme.SubWindow"></style>
+    <style name="ZMDialog"></style>
+    <style name="ZMDialog.Transparent"></style>
+
+</resources>
